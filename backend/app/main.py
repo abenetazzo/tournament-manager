@@ -5,7 +5,10 @@ app = FastAPI(title="Tournament Manager API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    allow_origins=[
+        "http://localhost:3000",
+        "https://tournament-manager-3kxb.onrender.com"
+        ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

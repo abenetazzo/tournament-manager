@@ -7,6 +7,7 @@ app = FastAPI(title="Tournament Manager API")
 allowed_origins = [
     "http://localhost:3000",
     "https://tournament-manager-chi.vercel.app",
+    "https://tournament-manager-3kxb.onrender.com"
 ]
 
 app.add_middleware(

@@ -7,7 +7,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",
-        "https://tournament-manager-3kxb.onrender.com"
+        "https://tournament-manager-chi.vercel.app"
         ],
     allow_credentials=True,
     allow_methods=["*"],
